@@ -1,0 +1,9 @@
+{
+  "env": {
+    "DB_USER": "Rahul_Sai",
+    "DB_PASSWORD": "Rahul_21",
+    "DB_NAME": "hodophiles",
+    "MAP_API_KEY": "pk.dbd308c38bf99f9b4b54331f2ec2ebc7",
+    "JWT_KEY": "supersecret_dont_share"
+  }
+}
