@@ -94,8 +94,9 @@ const createPlace = async (req, res, next) => {
   try {
     coordinates = await getCoordsForAddress(address);
     // console.log(coordinates);
-  } catch (error) {
-    console.log(error);
+  } catch (err) {
+    const error = new HttpError("Invalid address, please check your data", 404);
+    // console.log(error);
     return next(error);
   }
 
