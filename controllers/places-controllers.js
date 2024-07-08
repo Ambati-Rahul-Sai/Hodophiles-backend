@@ -95,6 +95,7 @@ const createPlace = async (req, res, next) => {
     coordinates = await getCoordsForAddress(address);
     // console.log(coordinates);
   } catch (error) {
+    console.log(error);
     return next(error);
   }
 
